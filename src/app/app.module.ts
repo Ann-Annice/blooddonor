@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BlooddonorComponent } from './blooddonor/blooddonor.component';
 import { SearchdonorComponent } from './searchdonor/searchdonor.component';
+import { DeletedonorComponent } from './deletedonor/deletedonor.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BlooddonorComponent,
-    SearchdonorComponent
+    SearchdonorComponent,
+    DeletedonorComponent
   ],
   imports: [
     BrowserModule,
