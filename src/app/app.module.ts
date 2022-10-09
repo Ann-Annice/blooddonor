@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BlooddonorComponent } from './blooddonor/blooddonor.component';
+import { SearchdonorComponent } from './searchdonor/searchdonor.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BlooddonorComponent
+    BlooddonorComponent,
+    SearchdonorComponent
   ],
   imports: [
     BrowserModule,
